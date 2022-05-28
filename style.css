@@ -6,17 +6,21 @@
   background-color: #f8f8f8;
   color: #333;
 }
+
 .list {
   margin:0;
   padding: 0px;
 }
+
 .list__item {
   list-style:none;
 }
+
 .list__input,
 .btn {
   outline:none;
 }
+
 .desc-app {
   width: 500px;
   margin: 0 auto;
@@ -27,22 +31,27 @@
 .desc-app .desc-app__img {
   width: 100%;
 }
+
 .desc-app .more-inf {
   font-family: fantasy, cursive;
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .add-item-wrapper {
   display: flex;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -52,6 +61,7 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
@@ -69,6 +79,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .content {
   margin: 0;
   font-size: 18px;
@@ -81,6 +92,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .content:focus {
   color: #333;
 }
@@ -92,6 +104,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -103,32 +116,39 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .list__input,
 .list__label,
 .list__btn {
   vertical-align: middle;
 }
+
 .input-checkbox {
   margin: 0 10px;
 }
+
 .list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list__item > .content {
   width: 226px
 }
+
 .delete .img__delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete .img__delete:hover {
   transform: rotateZ(0);
 }
@@ -147,10 +167,12 @@
 .list .list__item .content {
   display:none
 }
+
 .list .edit-mode .content {
   display:inline-block;
   width:224px
 }
+
 .list .edit-mode .label-content {
   display:none;
 }
@@ -159,7 +181,9 @@
       Media Queries
 ==============================*/
 @media (max-width:768px) {
+
   .desc-app {
     text-align: center;
   }
+
 }
