@@ -8,17 +8,17 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list__item {
-  list-style:none;
+  list-style: none;
 }
 
 .list__input,
 .btn {
-  outline:none;
+  outline: none;
 }
 
 .desc-app {
@@ -165,16 +165,16 @@
           Edit Task
 ==============================*/
 .list .list__item .content {
-  display:none
+  display: none
 }
 
 .list .edit-mode .content {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list .edit-mode .label-content {
-  display:none;
+  display: none;
 }
 
 /*==============================
